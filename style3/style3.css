@@ -1,0 +1,1961 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    
+    
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+
+.start{
+    background-color:  rgb(37, 36, 36);
+}
+.partone{
+    background-image: url(./images3/slide-home3-1.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.royal{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images3/layer-5.png);
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    
+    
+    
+}
+.navbar a{
+    color: white;
+}
+.nav1{
+    height: 100%;
+    width: 15%;
+    background-color: transparent;
+    
+    margin-top: 25px;
+    
+}
+.nav2{
+    height: 100%;
+    width: 78%;
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.nav3{
+    height: 100%;
+    width: 7%;
+    background-color: transparent;
+    display: inline-flex;
+    margin-top: 25px;
+    
+   
+
+}
+
+.nav31{
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+    border-right: 1px solid white;
+    padding-right: 30px;
+    
+}
+.nav32{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.search i{
+    color: white;
+
+}
+.first{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.logo{
+    height: 100%;
+    width: 55%;
+    background-image: url(./images3/logo-lg.svg);
+    background-size: cover;
+    background-position: center;
+    
+    margin-left: 20px;
+}
+.nav2 .navhome li{
+    display: inline-flex;
+    text-decoration: none;
+    transition: 0.50s ease-in;
+
+}
+.nav2 .navhome li{
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    
+}
+.gallery{
+    width: 180px;
+    background-color: rgb(37, 36, 36) ;
+    /* display: none; */
+    position: absolute;
+    top: 25px;
+    left: 0;
+    padding: 15px 15px;
+    /* transition: 0.50s ease-in; */
+    transform: translateY(50px);
+    transition: 0.5s all ease-out ;
+    z-index: -1;
+    
+    
+}
+.gallery li a{
+    text-decoration: none;
+    line-height: 30px;
+    transition: 2s ease-in;
+    
+}
+.gal{
+    position: relative;
+    
+}
+.gal:hover .gallery{
+    display: block;
+    transition: 0.50s ease-in;
+    opacity: 1;
+    transform: translateY(0px);
+    z-index: 1;
+    
+}
+
+.pages{
+    width: 180px;
+    background-color: rgb(37, 36, 36) ;
+    /* display: none; */
+    position: absolute;
+    top: 25px;
+    left: 0;
+    padding: 15px 15px;
+    transform: translateY(50px);
+    transition: 0.5s all ease-out ;
+    z-index: -1;
+    
+    
+}
+.gel .gallery:hover{
+    transition: 2s ease-in;
+    transition: 0.50s ease-in;
+}
+.pages li a{
+    text-decoration: none;
+    line-height: 30px;
+    transition: 2s ease-in;
+}
+.pag{
+    position: relative;
+    
+}
+.pag:hover .pages{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(0px);
+    z-index: 1;
+}
+.contect{
+    width: 180px;
+    background-color: rgb(37, 36, 36) ;
+    /* display: none; */
+    position: absolute;
+    top: 25px;
+    left: 0;
+    padding: 15px 15px;
+    transform: translateY(50px);
+    transition: 0.5s all ease-out ;
+    z-index: -1;
+    
+}
+.contect li a{
+    text-decoration: none;
+    line-height: 30px;
+    transition: 2s ease-in;
+}
+.con{
+    position: relative;
+    
+}
+.con:hover .contect{
+    display: block;
+    /* transition: 2s ease-in; */
+    opacity: 1;
+    transform: translateY(0px);
+    z-index: 1;
+}
+.blog{
+    width: 180px;
+    background-color: rgb(37, 36, 36) ;
+    /* display: none; */
+    position: absolute;
+    opacity: 0;
+    top: 25px;
+    left: 0;
+    padding: 15px 15px;
+    /* transition: 2s ease-in; */
+    transform: translateY(50px);
+    transition: 0.5s all ease-out ;
+    z-index: -1;
+}
+.book:hover{
+    filter: opacity(50%);
+}
+.explore:hover{
+    filter: opacity(20%);
+}
+.nav2 a{
+    text-decoration: none;
+}
+.blog li a{
+    text-decoration: none;
+    line-height: 30px;
+    transition: 2s ease-in;
+}
+.blo{
+    position: relative;
+    /* transition: 0.5s all ease-in; */
+    
+}
+.blo:hover .blog{
+    opacity: 1;
+    transform: translateY(0px);
+    z-index: 1;
+}
+.offcanvus{
+    
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+.offcanvas-body{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.offcanvas-body .bbb{
+    margin-left: 100px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.logooff{
+    height:45px;
+    width: 160px;
+    background-image: url(./images3/logo-lg.svg);
+    background-size: cover;
+    margin-left: 100px;
+}
+.insoff{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.offcanvas-body i{
+    margin-left: 70px;
+    
+}
+.logocan{
+    height: 50px;
+    width: 50px;
+    background-image: url(./images3/logo-lg.svg);
+    background-size: cover;
+    background-position: center;
+}
+.sixphoto{
+    height: 300px;
+    width: 330px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.sixphoto1{
+    height: 50%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.sixphoto2{
+    height: 50%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.pic1{
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+    background-image: url(./images3/pic1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.pic2{
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+    background-image: url(./images3/pic2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic3{
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+    background-image: url(./images3/pic3.webp);
+    background-size: cover;
+    background-position: center;
+}
+.pic4{
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+    background-image: url(./images3/pic4.webp);
+    background-size: cover;
+    background-position: center;
+}
+.pic5{
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+    background-image: url(./images3/pic5.webp);
+    background-size: cover;
+    background-position: center;
+}
+.pic6{
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+    background-image: url(./images3/pic6.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.partone p{
+    margin-left: 10%;
+    font-size: 20px;
+}
+.partone h2{
+    margin: 10px 0px;
+    margin-left: 10%;
+    font-size: 75px;
+}
+.ppp{
+    margin-top: 95px;
+}
+.book{
+    height: 45px;
+    width: 180px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-top: 20px;
+    filter: opacity(80%);
+    
+}
+.explore{
+    height: 45px;
+    width: 180px;
+    background-color:  transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 30px;
+    filter: opacity(50%);
+    
+}
+.offcanvasRightLabel{
+    background-color: rgb(37, 36, 36);
+    justify-content: flex-end;
+}
+.offcanvas-body i{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.offcanvas-header{
+    background-color: rgb(37, 36, 36);
+}
+.offcanvas-header h5{
+    color: white;
+    align-items: flex-end;
+}
+.aaa{
+    margin-left: 30px;
+    margin-top: -23px;
+    font-style: italic;
+    font-size: 20px;
+
+
+}
+.bbb{
+    margin-top: -30px;
+    
+}
+
+.logotype{
+    margin-top: 30px;
+   
+}
+.ccc{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.logos{
+    
+   margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    
+}
+
+.logos i{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin: 0px 10px;
+
+}
+.logos i:hover{
+    color: red;
+    background-color: black;
+}
+.offcanvas-header{
+    background-color: rgb(37, 36, 36);
+}
+.offcanvas-body{
+    background-color: rgb(37, 36, 36);
+}
+.offcanvas-body h4{
+    height: 25px;
+    width: 100%;
+    font-size: 17px;
+    border-bottom: 1px solid white;
+
+}
+.menu{
+    height: 55px;
+    width: 190px;
+    background-image: url(./images3/logo-lg.svg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 60px;
+}
+@keyframes hello{
+    0%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.dik h2{
+    animation-name: hello;
+    animation-duration: 1s;
+    /* animation-delay: s; */
+
+}
+.dik p{
+    animation-name: hello;
+    animation-duration: 1s;
+    /* animation-delay: s; */
+
+}
+.dik button{
+    animation-name: hello;
+    animation-duration: 2s;
+    /* animation-delay: s; */
+
+}
+.dik{
+    overflow: hidden;
+}
+/* part2  */
+.service{
+    /* height: 250px; */
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+
+.service1{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+.service1 span{
+    color: red;
+}
+.service2{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+.service2 p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 140px;
+}
+.service1 h2{
+    font-size: 40px;
+    margin-left: 50px;
+}
+.service1 h3{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.service1 h4{
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    margin-left: 50px;
+}
+.ankush{
+    display: none;
+}
+/* part3  */
+.studio{
+    height: 330px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    margin-top: 30px;
+    /* justify-content: space-evenly; */
+    
+}
+.stu1{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(44, 43, 43);
+    border-radius: 40px;
+    margin-left: 100px;
+}
+.stu2{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(44, 43, 43);
+    border-radius: 40px;
+    margin: 0px 20px;
+}
+.stu3{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(44, 43, 43);
+    border-radius: 40px;
+    margin-right: 20px;
+}
+.stu4{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(44, 43, 43);
+    border-radius: 40px;
+    
+}
+.studio .album{
+    background-color: transparent;
+    
+    color: aliceblue;
+    margin: 30px 0px 0px 30px;
+
+}
+.studio h3{
+    margin: 70px 0px 0px 30px;
+    font-size: 20px;
+}
+.studio h2{
+    margin-left: 30px;
+    font-size: 27px;
+    margin-top: 10px;
+}
+.stu1:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.01);
+
+}
+.stu2:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.01);
+}
+.stu3:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.01);
+}
+.stu4:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.01);
+}
+/* part4  */
+.live{
+    /* height: 350px; */
+    width: 100%;
+    background-image: url(./images3/backgroundlive.webp);
+    background-size: cover;
+    background-position: center;
+}
+.live span{
+    color: red;
+    
+}
+.live p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 130px;
+    margin-top: 20px;
+}
+.live h2{
+    text-align: center;
+    font-size: 55px;
+}
+.live h3{
+    text-align: center;
+    font-size: 55px;
+}
+/* part5 */
+.threeslide{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    margin-top: 30px;
+    overflow: hidden;
+
+    
+   
+}
+.threeslide1{
+    height: auto;
+    width: 1000px;
+    margin-left: -200px;
+    overflow: hidden;
+
+}
+.threeslide2{
+    height: auto;
+    width: 1000px;
+    margin: 0px 70px;
+
+}
+.threeslide3{
+    height: auto;
+    width: 1000px;
+    overflow: hidden;
+    margin-right: -200px;
+
+
+}
+/* part6  */
+.agency{
+    /* height: 300px; */
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+.agency1{
+    height: 100%;
+    width: 70%;
+    background-color: transparent;
+}
+.agency2{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+}
+.agency span{
+    color: red;
+
+}
+.agency h3{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+.agency h2{
+    font-size: 45px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.agency2 button{
+     height: 45px;
+     width: 230px;
+    background-color: red;
+    color: white;
+    margin-top: 45%;
+}
+.agency2 button:hover{
+    background-color: rgb(216, 131, 131);
+
+}
+.agency .spy{
+    font-style: italic;
+    font-family: playfair display;
+    color: white;
+}
+/* part7  */
+.kimono{
+    height: 400px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.kimono1{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    background-image: url(./images3/part7.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+/* .kimono1:hover{
+    height: 390px;
+    width: 590px;
+    transition: 0.50s ease-in;
+    
+    
+} */
+
+.stl{
+    height: 30px;
+    width: 100%;
+    
+    margin-top: 25px;
+}
+.kimono2{
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    
+
+}
+.stline{
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+.stline1{
+    height: 3px;
+    width: 100px;
+    background-color: white;
+    margin-top: 15px;
+}
+.kimono2 h3{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.kimono2 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* part8  */
+.choose{
+    height: 550px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    margin-top: 100px;
+    
+   
+}
+.choose1 h2 :hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+
+}
+.choose1{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+.choose2{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+.choose1 span{
+    color: red;
+}
+.choose1 h3{
+    font-size: 20px;
+    margin: 50px 0px 0px 100px;
+}
+.choose1 h2{
+    font-size: 50px;
+    margin: 20px 0px 0px 100px;
+}
+.choose1 h4{
+    color: white;
+    font-size: 30px;
+    margin:45px 0px 0px 100px;
+    border-bottom: 1px solid white;
+}
+.choose1 h4:hover{
+    color: red;
+    transition: 0.50s ease-in;
+}
+.choose2{
+    background-image: url(./images3/image.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+.cho1{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(37, 36, 36);
+    margin-left: -300px;
+    margin-top: 150px;
+}
+.cho2{
+    height: 130px;
+    width: 200px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 420px;
+    margin-left: 50px;
+}
+.cho3{
+    height: 130px;
+    width: 200px;
+    background-color: red;
+    margin-top: 420px;
+}
+.img3{
+    margin: 20px 0px 10px 130px;
+}
+.cho1 p{
+    margin: 30px 20px 20px 130px;
+}
+.cho2 h2{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cho2 p{
+    font-size:20px;
+    margin-left: 33px;
+}
+.cho3 h2{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cho3 p{
+    font-size:20px;
+    margin-left: 33px;
+}
+/* part9  */
+.team{
+    
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    margin-top: 130px;
+    border-top: 1px solid white;
+    padding-top: 70px;
+}
+.team1{
+    
+    width: 40%;
+    background-color: transparent;
+
+}
+.team2{
+    
+    width: 35%;
+    background-color: transparent;
+}
+.team span{
+    color: red;
+
+}
+.team1 h2{
+    font-size: 20px;
+    margin-left: 100px;
+    
+
+}
+.team1 h3{
+    font-size: 45px;
+    margin-left: 100px;
+}
+.team1 h4{
+    font-style: italic;
+    font-family: playfair display;
+    font-size: 45px;
+    color: white;
+    margin-left: 100px;
+    
+}
+.team2 p{
+    font-size: 20px;
+
+}
+/* part10 */
+.pics{
+    /* height: 450px; */
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.pics12 h2:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.pics12 h3:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.pics12 img:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    border-radius: 100px;
+
+}
+.pics1:hover{
+    background-color: red;
+    color: red;
+    transition: 0.50s ease-in;
+    /* rotate: 1deg; */
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 95%;
+
+}
+.pics22 h2:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.pics22 h3:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.pics22 img:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    border-radius: 100px;
+
+}
+.pics2:hover{
+    background-color: red;
+    color: red;
+    transition: 0.50s ease-in;
+    /* rotate: 1deg; */
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 95%;
+
+}
+.pics32 h2:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.pics32 h3:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.pics32 img:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    border-radius: 100px;
+
+}
+.pics3:hover{
+    background-color: red;
+    color: red;
+    transition: 0.50s ease-in;
+    /* rotate: 1deg; */
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 95%;
+
+}
+.pics42 h2:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.pics42 h3:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.pics42 img:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    border-radius: 100px;
+
+}
+.pics4:hover{
+    background-color: red;
+    color: red;
+    transition: 0.50s ease-in;
+    /* rotate: 1deg; */
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 95%;
+
+}
+.pics1{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(31, 91, 91);
+    background-image: url(./images3/team1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.pics2{
+    height: 300px;
+    width: 100%;
+    background-color: orange;
+    background-image: url(./images3/team2.webp);
+    background-size: cover;
+    background-position: center;
+}
+.pics3{
+    height: 300px;
+    width: 100%;
+    background-color: blanchedalmond;
+    background-image: url(./images3/team3.webp);
+    background-size: cover;
+    background-position: center;
+}
+.pics4{
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    background-image: url(./images3/team6.webp);
+    background-size: cover;
+    background-position: center;
+}
+.pics11{
+    /* height: 400px; */
+    width: 20%;
+    background-color: transparent;
+
+}
+.pics21{
+    /* height: 400px; */
+    width: 20%;
+    background-color: transparent;
+
+}
+.pics31{
+    /* height: 400px; */
+    width: 20%;
+    background-color: transparent;
+
+}
+.pics41{
+    /* height: 400px; */
+    width: 20%;
+    background-color: transparent;
+
+
+}
+/* part11  */
+
+.capture{
+    /* height: 300px; */
+    width: 100%;
+    background-color: transparent;
+    
+    text-align: center;
+}
+.capture span{
+    color: red;
+    
+}
+.capture .itl{
+    font-style: italic;
+    font-family: playfair display;
+    font-size: 45px;
+    color: white;
+}
+.capture h3{
+    font-size: 45px;
+}
+.capture h2{
+    font-size: 20px;
+    margin-top: 70px;
+    
+    
+    
+}
+/* part12  */
+.boho{
+    height: 3100px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 70px;
+    
+}
+.boho1{
+    /* height: 100%; */
+    width: 40%;
+    background-color: transparent;
+    flex-direction: column;
+}
+.bo1{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+
+}
+.bo2{
+    height: 25%;
+    width: 100%;
+    background-color: transparent;
+}
+.bo3{
+    height: 25%;
+    width: 100%;
+    background-color: transparent;
+}
+.bo4{
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+}
+.bo5{
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+}
+.bo6{
+    height: 25%;
+    width: 100%;
+    background-color: transparent;
+}
+.bo7{
+    height: 25%;
+    width: 100%;
+    background-color: transparent;
+}
+.bo8{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.boho2{
+    /* height: 100%; */
+    width: 40%;
+    background-color: transparent;
+    flex-direction: column;
+}
+.bo1img{
+    height: 80%;
+    width: 100%;
+    background-image:  url(./images3/project01-550x742.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.bo1img:hover{
+    height: 80%;
+    width: 98%;
+    margin-left: 7px;
+    margin-right: 5px;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.05);
+}
+.bo2img:hover{
+    height: 80%;
+    width: 98%;
+    margin-left: 7px;
+    margin-right: 5px;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.05);
+}
+.bo3img:hover{
+    height: 80%;
+    width: 98%;
+    margin-left: 7px;
+    margin-right: 5px;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.05);
+}
+.bo4img:hover{
+    height: 80%;
+    width: 98%;
+    margin-left: 7px;
+    margin-right: 5px;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.05);
+}
+.bo5img:hover{
+    height: 80%;
+    width: 98%;
+    margin-left: 7px;
+    margin-right: 5px;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.05);
+}
+.bo6img:hover{
+    height: 80%;
+    width: 98%;
+    margin-left: 7px;
+    margin-right: 5px;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.05);
+}
+.bo7img:hover{
+    height: 80%;
+    width: 98%;
+    margin-left: 7px;
+    margin-right: 5px;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.05);
+}
+.bo8img:hover{
+    height: 80%;
+    width: 98%;
+    margin-left: 7px;
+    margin-right: 5px;
+    transition: 0.50s ease-in;
+    filter: opacity(50%);
+    transform: scale(1.05);
+}
+
+.bo2img{
+    height: 80%;
+    width: 100%;
+    background-image: url(./images3/project12-550x742.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bo3img{
+    height: 80%;
+    width: 100%;
+    background-image: url(./images3/22.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bo4img{
+    height: 80%;
+    width: 100%;
+    background-image: url(./images3/24.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bo5img{
+    height: 80%;
+    width: 100%;
+    background-image: url(./images3/project02-550x366.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.bo6img{
+    height: 80%;
+    width: 100%;
+    background-image: url(./images3/project13-550x742.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.bo7img{
+    height: 80%;
+    width: 100%;
+    background-image: url(./images3/23.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.bo8img{
+    height: 87%;
+    width: 100%;
+    background-image: url(./images3/25.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.boho h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.boho p{
+    font-size: 17px;
+}
+/* part13  */
+.bbt{
+    height: 35px;
+    width: 90%;
+    background-color: red;
+    text-align: center;
+    
+    margin: 30px 70px;
+}
+.bbt h2{
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+/* part14  */
+.couple{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images3/part\ 1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.cur{
+    height: 150px;
+    width: 50px;
+    background-color: transparent;
+}
+.caap img:hover{
+    color: red;
+    background-color: red;
+    transition: 0.50s ease-in;
+
+
+}
+
+.cup{
+    /* height: 300px; */
+    width: 45%;
+    background-color: rgb(44, 43, 43);
+    margin-left : 100px;
+}
+.couple1{
+    /* height: 200px; */
+    width: 100%;
+    background-color: transparent;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.couple1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.couple2{
+    display: flex;
+    margin-top: 30px;
+}
+.couple22{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.couple22 h2{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.couple22 h3{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.spic{
+    border-radius: 40px;
+    margin-left: 40px;
+}
+
+.cap{
+    height: 100%;
+    width: 60%;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.caap{
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.ank{
+    margin-left: 90px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.anku{
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+/* part15  */
+
+.bloger{
+    /* height: 300px; */
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.bloger1{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+.bloger2{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+.bloger2 p{
+    font-size: 20px;
+    margin: 80px 30px 30px 30px;
+
+}
+.bloger1 span{
+    color: red;
+
+}
+.bloger1 h2{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.bloger1 h3{
+    font-size: 40px;
+    margin-left: 100px;
+}
+.bloger1 .teda{
+    
+    font-style: italic;
+    font-family: playfair display;
+    color: white;
+}
+/* part16  */
+.ankushr{
+    height: 530px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+    
+}
+
+.an1:hover{
+    background-color: red;
+    transition: 0.50s ease-in;
+    
+    
+    /* rotate: 1deg; */
+
+}
+.ank1:hover{
+    background-color: transparent;
+    transition: 0.50s ease-in;
+    
+    /* height: 98%;
+    width: 28%; */
+    filter: opacity(70%);
+    transform: scale(1.03);
+
+}
+.ank2:hover{
+    background-color: transparent;
+    transition: 0.50s ease-in;
+    
+    height: 98%;
+    width: 28%;
+
+}
+.ank3:hover{
+    background-color: transparent;
+    transition: 0.50s ease-in;
+    
+    height: 98%;
+    width: 28%;
+
+}
+.ankushr h2:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.ankushr h3:hover{
+    color: red;
+    transition: 0.50s ease-in;
+
+}
+.ankushr button:hover{
+    background-color: rgb(243, 134, 134);
+    transition: 0.50s ease-in;
+
+}
+
+.ank1{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+.ank2{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.ank3{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-right: 30px;
+}
+
+.an1{
+    height: 60%;
+    width: 90%;
+    background-image: url(./images3/ank1.webp);
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.an2{
+    height: 60%;
+    width: 90%;
+    background-image: url(./images3/ank2.webp);
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.an3{
+    height: 60%;
+    width: 90%;
+    background-image: url(./images3/ank4.webp);
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ankushr button{
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: none;
+}
+.ankushr h2{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.ankushr h3{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+/* part17  */
+.touch{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.touch p{
+    font-size: 20px;
+    
+}
+.touch h2{
+    font-size: 50px;
+}
+
+/* part18 */
+
+
+
+
+.rrr{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    
+    justify-content: center;
+    
+
+}
+.rrr1{
+    height: 100%;
+    width: 40%;
+    
+}
+.rrr2{
+    height: 100%;
+    width: 40%;
+    
+
+}
+.datalist{
+    font-size: 20px;
+    color: white;
+}
+.datalist input{
+    width: 90%;
+    background-color: rgb(37, 36, 36);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+    
+}
+.datalist2{
+    font-size: 20px;
+    color: white;
+    
+    
+    
+}
+.rrr input{
+    color: white;
+}
+.shubham:hover{
+    background-color: rgb(223, 142, 142);
+}
+.datalist2 input{
+    width: 90%;
+    background-color: rgb(37, 36, 36);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    
+}
+.datalist3{
+    font-size: 20px;
+    color: white;
+    
+}
+.datalist3 input{
+    width: 90%;
+    background-color: rgb(37, 36, 36);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+}
+.datalist4{
+    font-size: 20px;
+    color: white;
+    
+}
+.datalist4 input{
+    width: 90%;
+    background-color: rgb(37, 36, 36);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.datalist5{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    
+}
+.datalist5 input{
+    width: 60%;
+    background-color: rgb(37, 36, 36);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.here{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    justify-content: center;
+}
+.onebtn{
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    
+    text-align: center;
+    margin-bottom: 100px;
+    
+
+}
+
+.shubham{
+    color: white;
+    background-color: #212529 ;
+    height: 50px;
+    width: 170px;
+    border: 1px solid white;
+}
+/* part19  */
+.infor{
+    height: 200px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.infor1{
+    height: 100%;
+    width: 25%;
+    
+    display: flex;
+   
+}
+.infor2{
+    height: 100%;
+    width: 25%;
+   
+    display: flex;
+    
+}
+.infor3{
+    height: 100%;
+    width: 25%;
+    
+    display: flex;
+}
+.inf1{
+    height: 100%;
+    width: 25%;
+    
+}
+.inf2{
+    height: 100%;
+    width: 25%;
+    
+}
+.inf3{
+    height: 100%;
+    width: 25%;
+    
+}
+.inf11{
+    height: 100%;
+    width: 100%;
+    
+}
+.inf22{
+    height: 100%;
+    width: 100%;
+  
+}
+.inf33{
+    height: 100%;
+    width: 100%;
+   
+}
+.infor h3{
+    font-size: 25px;
+}
+.infor p{
+    font-size: 17px;
+}
+.inf11 p{
+    font-size: 21px;
+
+}
+/* part20  */
+.kimone{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    
+}
+.kimone1{
+    width: 25%;
+    
+    margin-top: 170px;
+}
+.kimone2{
+    width: 50%;
+    
+    margin-top: 120px;
+}
+.kimone3{
+    width: 25%;
+    
+    margin-top: 170px;
+}
+.kimone h3{
+    margin-top: 20px;
+    font-size: 23px;
+}
+.kimone2 h2{
+    margin-top: 50px;
+    font-size: 25px;
+    
+}
+.helo:hover{
+    background-color: rgb(223, 142, 142);
+}
+.hello:hover{
+    filter: opacity(50%);
+}
+.hello{
+    background-color: rgb(53, 52, 52);
+    height: 45px;
+    width: 250px;
+    margin-top: 50px;
+    color: rgb(146, 143, 143);
+    border: 1px solid white;
+    
+}
+.helo{
+    height: 45px;
+    width: 130px;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    border: 1px solid white;
+
+}
+/* part21 */
+.line{
+    /* height: 100px; */
+    width: 100%;
+   
+    display: flex;
+}
+.line1{
+    height: 100%;
+    width: 80%;
+    
+}
+.line2{
+    height: 100%;
+    width: 20%;
+  
+    margin-top: 25px;
+
+}
+.line1 span{
+    color: #3d4145;
+}
+.line p{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+    
+    
+}
+
+.line2 img{
+    margin-left: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
